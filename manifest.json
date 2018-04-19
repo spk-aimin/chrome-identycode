@@ -1,0 +1,16 @@
+{
+    "name": "大陆身份证生成器",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "身份证生成及识别",
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "./src/pages/popup.html"
+    },
+    "permissions": [
+    "http://api.flickr.com/"
+    ]
+}
